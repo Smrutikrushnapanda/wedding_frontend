@@ -1,0 +1,10 @@
+{
+  "name": "wedding-parent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix wedding-app run dev",
+    "build": "npm --prefix wedding-app run build",
+    "start": "npm --prefix wedding-app run start"
+  }
+}

@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+wedding-app/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js build outputs
+.next/
+wedding-app/.next/
+out/
+wedding-app/out/
+build/
+wedding-app/build/
+
+# Cache & logs
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.env*
+wedding-app/.env*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+wedding-app/.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+wedding-app/next-env.d.ts
