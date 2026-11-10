@@ -2,12 +2,12 @@ import React from 'react';
 import SafeImage from './SafeImage';
 
 export default function BackgroundDecor() {
-  // Dense floral coverage down both margins of the mobile screen
+  // Dense floral coverage down both margins from top to the very bottom
   const leftPositions = [
-    60, 240, 440, 660, 880, 1100, 1320, 1540, 1760, 1980, 2200, 2420, 2640, 2860, 3080,
+    60, 240, 420, 600, 780, 960, 1140, 1320, 1500, 1680, 1860, 2040, 2220, 2400, 2580, 2760, 2940, 3120, 3300, 3480, 3660, 3840, 4020, 4200, 4380, 4560,
   ];
   const rightPositions = [
-    40, 200, 400, 620, 840, 1060, 1280, 1500, 1720, 1940, 2160, 2380, 2600, 2820, 3040,
+    40, 200, 380, 560, 740, 920, 1100, 1280, 1460, 1640, 1820, 2000, 2180, 2360, 2540, 2720, 2900, 3080, 3260, 3440, 3620, 3800, 3980, 4160, 4340, 4520,
   ];
 
   return (
